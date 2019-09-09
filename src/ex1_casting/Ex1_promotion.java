@@ -10,5 +10,11 @@ public class Ex1_promotion {
 		d=n;
 		
 		System.out.println(d);
+		
+		char c = 'A';  // 2byte
+		long lo = 100; // 8byte
+		lo = c;
+		
+		System.out.println(lo);
 	}
 }
