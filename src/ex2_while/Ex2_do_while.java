@@ -28,15 +28,11 @@ public class Ex2_do_while {
 		do {
 			java = new Random().nextInt(131); // 0 ~ 130 사이의 난수
 			android = new Random().nextInt(131);
-			jsp = new Random().nextInt(131);
-			
-			if(java <=100 && android <=100 && jsp <=100)
-			{
-				System.out.println("java :" + java);
-				System.out.println("안드로이드 :" + android);
-				System.out.println("jsp :" + jsp);
-				System.out.println("------------");
-			}
-		} while (java <=100 && android <=100 && jsp <=100);
+			jsp = new Random().nextInt(131);			
+		} while (java >100 || android >100 || jsp >100);
+		
+		System.out.println("java :" + java);
+		System.out.println("안드로이드 :" + android);
+		System.out.println("jsp :" + jsp);
 	}
 }
