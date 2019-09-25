@@ -5,12 +5,14 @@ public class Ex4_break {
 		int n=1;
 		
 		while( true ) {
-			if(n > 2) {
-				break;
-			}
 			
 			System.out.println(n);
 			n++;
+			
+			if(n > 2) {
+				break;
+			}
 		}
+		System.out.println("Á¾·á");
 	}
 }
