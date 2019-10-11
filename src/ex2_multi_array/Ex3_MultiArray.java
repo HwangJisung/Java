@@ -22,5 +22,16 @@ public class Ex3_MultiArray {
 		
 		System.out.println("배열에 담긴 모든 값의 합 : " + sum);
 		System.out.printf("배열에 담긴 모든 값의 평균 : %.3f" , avr);
+		
+		
+		// Wrapper 클래스의 종류
+		// int -> Integer
+		// char -> Character
+		// boolean -> Boolean
+		// byte -> Byte
+		// short -> Short
+		// string -? String
+		// 기본 자료형에서 대문자로 시작하는 것을 wrapper클래스
+		
 	}
 }
