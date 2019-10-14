@@ -18,7 +18,7 @@ public class Ex3_work {
 		if (id.trim().length() < 14 || id.trim().charAt(6) != '-')
 		{
 			System.out.println("주민등록번호 형식이 아닙니다.");
-		} else {			
+		} else {
 			int gubun = Integer.parseInt(id.substring(7,8));
 			
 			String year = "";
